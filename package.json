@@ -6,17 +6,17 @@
     "author": {
         "name": "Giuseppe Paolisi",
         "email": "giuseppe.paolisi@gmail.com",
-        "url": "https://giuseppepaolisi.github.io/"
+        "url": "https://giuseppepaolisi.github.io/giuseppepaolisi.dev/"
     },
     "license": "MIT",
     "type": "module",
-    "homepage": "https://giuseppepaolisi.github.io/",
+    "homepage": "https://giuseppepaolisi.github.io/giuseppepaolisi.dev/",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "tsc -b && vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-        "predeploy": "npm run build",
+        "predeploy": "yarn build",
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
