@@ -7,8 +7,8 @@ import { Header } from './components/Header'
 // Routes
 import { About } from './routes/About'
 import { Projects } from './routes/Projects'
-import { Blog } from './routes/Blog'
-import { Articles } from './routes/Articles'
+//import { Blog } from './routes/Blog'
+//import { Articles } from './routes/Articles'
 import { NotFound } from './routes/NotFound'
 
 /**
@@ -41,10 +41,10 @@ export const App = (): ReactElement => {
                     <Routes location={displayLocation}>
                         <Route index element={<About />} />
                         <Route path="projects" element={<Projects />} />
-                        <Route path="blog">
+                        {/*<Route path="blog">
                             <Route index element={<Blog />} />
                             <Route path=":articleId" element={<Articles />} />
-                        </Route>
+                        </Route>*/}
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </main>
