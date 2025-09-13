@@ -6,22 +6,22 @@
     "author": {
         "name": "Giuseppe Paolisi",
         "email": "giuseppe.paolisi@gmail.com",
-        "url": "https://giuseppepaolisi.github.io/giuseppepaolisi.dev"
+        "url": "https://giuseppepaolisi.github.io/"
     },
     "license": "MIT",
     "type": "module",
-    "homepage": "https://giuseppepaolisi.github.io/giuseppepaolisi.dev/",
+    "homepage": "https://giuseppepaolisi.github.io/",
     "scripts": {
         "dev": "vite",
-        "build": "tsc -b && vite build",
+        "build": "vite build",
         "lint": "eslint .",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
-        "@mdx-js/react": "^3.1.0",
-        "@mdx-js/rollup": "^3.1.0",
+        "@mdx-js/react": "^3.1.1",
+        "@mdx-js/rollup": "^3.1.1",
         "@tabler/icons-react": "^3.34.1",
         "clsx": "^2.1.1",
         "react": "^19.1.1",
@@ -32,11 +32,13 @@
     },
     "devDependencies": {
         "@eslint/js": "^9.34.0",
+        "@tailwindcss/postcss": "^4.1.13",
         "@tailwindcss/typography": "^0.5.16",
         "@tailwindcss/vite": "^4.1.12",
         "@types/react": "^19.1.12",
         "@types/react-dom": "^19.1.9",
         "@vitejs/plugin-react": "^5.0.2",
+        "autoprefixer": "^10.4.21",
         "eslint": "^9.34.0",
         "eslint-plugin-prettier": "^5.5.4",
         "eslint-plugin-react-hooks": "^5.2.0",
@@ -46,9 +48,9 @@
         "postcss": "^8.5.6",
         "prettier": "^3.6.2",
         "prettier-plugin-tailwindcss": "^0.6.14",
-        "tailwindcss": "^4.1.12",
+        "tailwindcss": "^4.1.13",
         "typescript": "~5.9.2",
         "typescript-eslint": "^8.41.0",
-        "vite": "^7.1.3"
+        "vite": "^7.1.5"
     }
 }
