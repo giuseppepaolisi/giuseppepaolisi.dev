@@ -14,7 +14,7 @@ export const Hero = (): ReactElement => (
                 <h1 className="text-silver-900/90 text-3xl leading-none font-semibold">Giuseppe Paolisi</h1>
                 <h2 className="text-silver-700/50 mt-2 items-center space-y-2 text-lg leading-none font-medium lg:mt-0 lg:flex lg:space-y-0 lg:space-x-2">
                     <div className="whitespace-nowrap">
-                        <span>Software Engineering</span>
+                        <span>Software Engineer</span>
                     </div>
                 </h2>
             </div>

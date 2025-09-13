@@ -6,11 +6,11 @@
     "author": {
         "name": "Giuseppe Paolisi",
         "email": "giuseppe.paolisi@gmail.com",
-        "url": "https://giuseppepaolisi.github.io/giuseppepaolisi.dev/"
+        "url": "https://giuseppepaolisi.github.io/"
     },
     "license": "MIT",
     "type": "module",
-    "homepage": "https://giuseppepaolisi.github.io/giuseppepaolisi.dev/",
+    "homepage": "https://giuseppepaolisi.github.io/",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",

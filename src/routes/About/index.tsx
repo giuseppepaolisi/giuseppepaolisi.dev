@@ -13,7 +13,7 @@ export const About = (): ReactElement => {
                 <div className="mt-4">
                     <div className={`text-md text-silver-700/70 space-y-4 text-justify leading-7`}>
                         <p>
-                            Appassionato di programmazione e tecnologia sin da bambino, sono attualmente uno studente magistrale associato all'Università degli Studi di Salerno, in particolare nel curriculum <span className={`font-semibold text-yellow-300/70`}>Software Engineering and IT Management</span>.
+                            Appassionato di programmazione e tecnologia sin da bambino, sono attualmente uno studente magistrale associato all'Università degli Studi di Salerno, in particolare nel curriculum <span className={`font-semibold text-yellow-300/70`}>Software Engineer and IT Management</span>.
                         </p>
                         <p>
                             Mi entusiasma il mondo dei <span className={`text-cerulean font-semibold`}>Large Language Models</span> e le sue potenzialità.
