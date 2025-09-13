@@ -43,15 +43,6 @@ const projects: Array<Project> = [
         viewSourceUrl: 'https://github.com/giuseppepaolisi/QaaS-QuantuMoonLight',
         technologies: ['Python', 'Flask', 'SQLAlchemy', 'Azure', 'Docker', 'DevOps'],
     },
-        {
-        title: 'QuantuMoonLight - Evoluzione',
-        description:
-            'Evoluzione di una piattaforma web completa per sperimentare algoritmi di Machine Learning quantistico, implementando 3 change request.',
-        image: '/projects/QuantuMoonLight.gif',
-        //url: 'https://slicendice.vercel.app/',
-        viewSourceUrl: 'https://github.com/SkipperWhale/IGES-QuantuMoonLight',
-        technologies: ['Python', 'Flask', 'SQLAlchemy', 'Azure', 'Docker', 'DevOps'],
-    },
     {
         title: 'Linguaggio MyFan',
         description: 'Implementazione del frontend di un compilatore con analisi lessicale, sintattica e semantica.',

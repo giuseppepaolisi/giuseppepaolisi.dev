@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><a href="https://giuseppepaolisi.github.io" target="_blank">giuseppepaolisi.dev</a></h1>
+  <h1><a href="https://giuseppepaolisi.github.io" target="_blank">giuseppepaolisi.github.io</a></h1>
   My personal website built with React & TailwindCSS
 </div>
 
